@@ -7,7 +7,7 @@ urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
     url(r'^users/', include('profiles.urls')),
     url(r'^contests/', include('auction.urls')),
-    # url(r'^$', RedirectView.as_view(url='///', permanent=False)),
+    url(r'^$', TemplateView.as_view(template_name="mecenati/home.html", permanent=False)),
 )
 
 if settings.DEBUG:
