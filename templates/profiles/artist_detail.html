@@ -6,8 +6,8 @@
           <img style="height:200px;" src="{{ object.portrait.url }}" class="img-circle">
         </div>
         <div class="col-md-8">
-          <h1>{{ object.first_name }} {{ object.last_name }}</h1>
-          <p>{{ object.city }} - {{ object.country }}</p>
+          <h1>{{ object.profile_set.first_name }} {{ object.profile_set.last_name }}</h1>
+          <p>{{ object.profile_set.city }} - {{ object.profile_set.country }}</p>
           <br/>
           <p>
           {% for skill in object.skill_set.all %}
