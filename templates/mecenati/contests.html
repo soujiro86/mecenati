@@ -1,35 +1,64 @@
 {% extends "mecenati/base.html" %}
 
-{% block page-title %}The Artists - Maecenas{% endblock %}
+{% block page-title %}Discover the contests - Maecenas{% endblock %}
 
 {% block extra-style %}
-        .col-md-6{
-            padding-top:70px !important;
+        .col-md-12{
+            padding-bottom:20px !important;
 }
 {% endblock %}
 
 {% block content %}
       <div class="row">
-        <div class="col-md-12"><h2>The Artists</h2></div>
+        <div class="col-md-12"><h2>Contests</h2></div>
         <div class="col-md-12">
             <form action="">
                 <div class="form-group"><input class="form-control" type="text" placeholder="search"/></div>
             </form>
         </div>
             <div class="col-md-12">
-                <div class="col-md-4">
-                  <img style="height:150px;width:150px;" src="/media/images/artists/bansky_portrait.jpg" class="img-rounded">
+                <div class="col-md-3">
+                  <img style="height:240px;width:240px;" src="/media/images/contests/01.jpg" class="img-rounded">
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-9">
                     <h3>Wall in Via Mazzini 214, Roma - Italia</h3>
+                    <p>height:1,5m - length:1m - Budget: 1400 $</p>
                     <p>The wall of my apartment look boring and spoiled. i want someone to bring some colors on it </p>
 
                     <p>
-                        <span class="label label-warning">Vernice Spray</span>
-                        <span class="label label-warning">Vernice Bio</span>
+                        <span class="label label-warning">Spray</span>
                     </p>
                 </div>
             </div>
 
+            <div class="col-md-12">
+                <div class="col-md-3">
+                  <img style="height:240px;width:240px;" src="/media/images/contests/02.jpg" class="img-rounded">
+                </div>
+                <div class="col-md-9">
+                    <h3>Wall in Patrick Street 20, Manchester - United Kingdom</h3>
+                    <p>height:3m - length:2m - Budget: 4200 $</p>
+                    <p>We need someone who want to save this wall from taggers</p>
+
+                    <p>
+                        <span class="label label-warning">Spray</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <div class="col-md-3">
+                  <img style="height:240px;width:240px;" src="/media/images/contests/03.jpg" class="img-rounded">
+                </div>
+                <div class="col-md-9">
+                    <h3>Wall in Wolowitz Richard st. 12, Santa Barbara - United States</h3>
+                    <p>height:3m - length:2m - Budget: 6000 $</p>
+                    <p>Hey, we have a project for a wall near a school in Santa Barbara, send to us your idea. </p>
+
+                    <p>
+                        <span class="label label-warning">Spray</span>
+                    </p>
+                </div>
+            </div>
       </div>
 {% endblock %}

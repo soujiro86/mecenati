@@ -43,12 +43,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/mecenati/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3202847" vertical-offset="300" max-vertical-offset="1605">
-              <caret line="38" column="83" selection-start-line="38" selection-start-column="83" selection-end-line="38" selection-end-column="83" />
+            <state vertical-scroll-proportion="-23.75" vertical-offset="0" max-vertical-offset="1605">
+              <caret line="38" column="103" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="103" />
               <folding>
+                <element signature="n#style#0;n#img#0;n#h1#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#header#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -61,10 +62,12 @@
       <file leaf-file-name="contests.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/mecenati/contests.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.25" vertical-offset="0" max-vertical-offset="600">
-              <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+            <state vertical-scroll-proportion="-26.375" vertical-offset="192" max-vertical-offset="1035">
+              <caret line="55" column="96" selection-start-line="55" selection-start-column="96" selection-end-line="55" selection-end-column="96" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,12 +95,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/mecenati/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.625" vertical-offset="225" max-vertical-offset="1110">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="68" selection-end-column="7" />
-              <folding />
+            <state vertical-scroll-proportion="0.3202847" vertical-offset="0" max-vertical-offset="1110">
+              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -169,7 +174,6 @@
         <option value="$PROJECT_DIR$/profiles/urls.py" />
         <option value="$PROJECT_DIR$/profiles/views.py" />
         <option value="$PROJECT_DIR$/mecenati/settings.py" />
-        <option value="$PROJECT_DIR$/templates/mecenati/base.html" />
         <option value="$PROJECT_DIR$/auction/admin.py" />
         <option value="$PROJECT_DIR$/auction/models.py" />
         <option value="$PROJECT_DIR$/auction/urls.py" />
@@ -183,8 +187,9 @@
         <option value="$PROJECT_DIR$/templates/mecenati/bansky.html" />
         <option value="$PROJECT_DIR$/templates/mecenati/artists.html" />
         <option value="$PROJECT_DIR$/mecenati/urls.py" />
-        <option value="$PROJECT_DIR$/templates/mecenati/contests.html" />
         <option value="$PROJECT_DIR$/templates/mecenati/home.html" />
+        <option value="$PROJECT_DIR$/templates/mecenati/contests.html" />
+        <option value="$PROJECT_DIR$/templates/mecenati/base.html" />
       </list>
     </option>
   </component>
@@ -722,14 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/mecenati/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625" vertical-offset="225" max-vertical-offset="1110">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="68" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/mecenati/artists.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.5" vertical-offset="240" max-vertical-offset="1560">
@@ -755,23 +752,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/mecenati/contests.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.25" vertical-offset="0" max-vertical-offset="600">
-          <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+        <state vertical-scroll-proportion="-26.375" vertical-offset="192" max-vertical-offset="1035">
+          <caret line="55" column="96" selection-start-line="55" selection-start-column="96" selection-end-line="55" selection-end-column="96" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/mecenati/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3202847" vertical-offset="300" max-vertical-offset="1605">
-          <caret line="38" column="83" selection-start-line="38" selection-start-column="83" selection-end-line="38" selection-end-column="83" />
+        <state vertical-scroll-proportion="-23.75" vertical-offset="0" max-vertical-offset="1605">
+          <caret line="38" column="103" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="103" />
           <folding>
+            <element signature="n#style#0;n#img#0;n#h1#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#header#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/mecenati/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3202847" vertical-offset="0" max-vertical-offset="1110">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
