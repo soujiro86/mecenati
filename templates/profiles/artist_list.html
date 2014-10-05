@@ -1,0 +1,27 @@
+{% extends "mecenati/base.html" %}
+
+{% block page-title %}The Artists - Maecenas{% endblock %}
+
+
+{% block content %}
+      <div class="row">
+        <div class="col-md-12"><h2>The Artists</h2></div>
+
+        {% for artist in object_list %}
+            <div class="col-md-6">
+                <div class="col-md-4">
+                  <img style="height:200px" src="{{ artist.portrait.url }}" class="img-circle">
+                </div>
+                <div class="col-md-8">
+                    <h3>{{ artist.first_name }} {{ artist.last_name }}</h3>
+                    <p>{{ artist.city }} - {{ artist.country }}</p>
+                    <p>
+                    {% for skill in artist.skill_set.all %}
+                        <span class="label label-warning">{{ skill.name }}</span>
+                    {% endfor %}
+                    </p>
+                </div>
+                </div>
+        {% endfor %}
+      </div>
+{% endblock %}

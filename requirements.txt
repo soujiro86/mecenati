@@ -1,0 +1,9 @@
+Django==1.7
+Pillow==2.6.0
+argparse==1.2.1
+django-appconf==0.6
+django-imagekit==3.2.4
+django-model-utils==2.2
+pilkit==1.1.12
+six==1.8.0
+wsgiref==0.1.2

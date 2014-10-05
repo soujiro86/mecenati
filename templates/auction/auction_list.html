@@ -1,0 +1,25 @@
+{% extends "mecenati/base.html" %}
+{% block page-title %}Discover the Contests - Maecenas{% endblock %}
+
+{% block content %}
+      <div class="row">
+
+        <div class="col-md-12"><h2>Discover the Contests</h2></div>
+        {% for auction in object_list %}
+            <div class="col-md-6">
+                <div class="col-md-4">
+                  <img style="height:150px" src="{{ auction.portrait.url }}" class="">
+                </div>
+                <div class="col-md-8">
+                    <h3>{{ auction.title }}</h3>
+                    <p>{{ auction.description }}</p>
+                    <p>
+                    {% for skill in artist.skill_set.all %}
+                        <span class="label label-warning">{{ skill.name }}</span>
+                    {% endfor %}
+                    </p>
+                </div>
+            </div>
+        {% endfor %}
+      </div>
+{% endblock %}
